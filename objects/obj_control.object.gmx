@@ -26,6 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>lives  = 3;
+globalvar weapon_armor_flag;
+globalvar weapon_armor_equip;
+
+weapon_armor_flag = 1;
+weapon_armor_equip = 0;
 </string>
           </argument>
         </arguments>
