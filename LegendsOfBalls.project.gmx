@@ -24,17 +24,23 @@
     <sprite>sprites\spr_play_button</sprite>
     <sprites name="spr_player">
       <sprite>sprites\spr_player_move_right</sprite>
+      <sprite>sprites\spr_player_move_right_armor</sprite>
       <sprite>sprites\spr_player_move_left</sprite>
+      <sprite>sprites\spr_player_move_left_armor</sprite>
       <sprite>sprites\spr_player_move_down</sprite>
+      <sprite>sprites\spr_player_move_down_armor</sprite>
       <sprite>sprites\spr_player_static</sprite>
+      <sprite>sprites\sprite37</sprite>
+      <sprite>sprites\spr_player_static_armor</sprite>
       <sprite>sprites\spr_player_move_back</sprite>
+      <sprite>sprites\spr_player_move_back_armor</sprite>
       <sprite>sprites\spr_player_static_back</sprite>
+      <sprite>sprites\spr_player_static_back_armor</sprite>
     </sprites>
     <sprite>sprites\spr_player_armor</sprite>
     <sprite>sprites\spr_restart_button</sprite>
     <sprite>sprites\spr_title</sprite>
     <sprite>sprites\spr_turkeyleg</sprite>
-    <sprite>sprites\spr_weapon_armor</sprite>
     <sprite>sprites\spri_GamOver</sprite>
     <sprite>sprites\sprite18</sprite>
     <sprite>sprites\sprite20</sprite>
@@ -48,6 +54,7 @@
     </sprites>
     <sprites name="spr_weapon">
       <sprite>sprites\spr_weapon_sword</sprite>
+      <sprite>sprites\spr_weapon_armor</sprite>
     </sprites>
     <sprite>sprites\sprite30</sprite>
   </sprites>
@@ -61,6 +68,7 @@
   <scripts name="scripts">
     <script>scripts\script_multi_touch.gml</script>
     <script>scripts\scr_player_attack.gml</script>
+    <script>scripts\scr_player_armor.gml</script>
     <script>scripts\scr_player_move.gml</script>
     <script>scripts\scr_weapon_armor_equip.gml</script>
     <scripts name="scr_player">
@@ -81,7 +89,6 @@
     <object>objects\obj_restart_button</object>
     <object>objects\obj_GameOver</object>
     <object>objects\obj_title</object>
-    <object>objects\obj_weapon_armor</object>
     <objects name="ui">
       <object>objects\obj_up</object>
       <object>objects\obj_down</object>
@@ -97,6 +104,7 @@
       <object>objects\obj_exit_lv4</object>
       <object>objects\obj_exit_lv5</object>
       <object>objects\obj_exit_lv6</object>
+      <object>objects\obj_exit_lv7</object>
     </objects>
     <objects name="obj_enemy">
       <object>objects\obj_enemy_lv2_h</object>
@@ -107,6 +115,7 @@
     </objects>
     <objects name="obj_weapon">
       <object>objects\obj_weapon_sword</object>
+      <object>objects\obj_weapon_armor</object>
       <object>objects\obj_weapon_sword_item</object>
     </objects>
   </objects>
@@ -120,6 +129,7 @@
     <room>rooms\rm_lv5</room>
     <room>rooms\rm_lv6</room>
     <room>rooms\rm_lv7</room>
+    <room>rooms\rm_lv8</room>
     <room>rooms\rm_lv2</room>
   </rooms>
   <help>

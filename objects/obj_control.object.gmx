@@ -30,11 +30,13 @@ globalvar weapon_armor_flag;
 globalvar weapon_armor_equip;
 globalvar sword;
 globalvar weapon;
+globalvar armor;
 
 global.weapon_armor_flag = 1;
 global.weapon_armor_equip = 0;
 global.sword=0;
 global.weapon=0;
+global.armor=0;
 
 </string>
           </argument>
