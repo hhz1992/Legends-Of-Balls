@@ -34,6 +34,7 @@ globalvar armor;
 globalvar gun;
 globalvar guncooldown;
 globalvar boss_hp;
+globalvar invincible;
 
 
 global.weapon_armor_flag = 1;
@@ -44,6 +45,7 @@ global.armor=0;
 global.gun=0;
 global.guncooldown = 0;
 global.boss_hp = 20;
+global.invincible = 0;
 </string>
           </argument>
         </arguments>
