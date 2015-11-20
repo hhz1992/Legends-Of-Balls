@@ -25,19 +25,25 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>lives  = 3;
+            <string>lives  = 6;
 globalvar weapon_armor_flag;
 globalvar weapon_armor_equip;
 globalvar sword;
 globalvar weapon;
 globalvar armor;
+globalvar gun;
+globalvar guncooldown;
+globalvar boss_hp;
+
 
 global.weapon_armor_flag = 1;
 global.weapon_armor_equip = 0;
 global.sword=0;
 global.weapon=0;
 global.armor=0;
-
+global.gun=0;
+global.guncooldown = 0;
+global.boss_hp = 20;
 </string>
           </argument>
         </arguments>

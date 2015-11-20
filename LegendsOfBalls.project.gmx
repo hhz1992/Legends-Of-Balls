@@ -17,14 +17,33 @@
       <sprite>sprites\spr_enemy_lv1</sprite>
       <sprite>sprites\spr_enemy_lv4</sprite>
       <sprite>sprites\spr_enemy_lv2</sprite>
+      <sprite>sprites\spr_enemy_boss</sprite>
     </sprites>
     <sprite>sprites\spr_enemy_lv1_1</sprite>
     <sprite>sprites\spr_exit</sprite>
     <sprite>sprites\spr_ghost</sprite>
     <sprite>sprites\spr_ghost_test</sprite>
     <sprite>sprites\spr_play_button</sprite>
+    <sprite>sprites\spr_level1</sprite>
+    <sprite>sprites\spr_level2</sprite>
+    <sprite>sprites\spr_level3</sprite>
+    <sprite>sprites\spr_level4</sprite>
+    <sprite>sprites\spr_level5</sprite>
+    <sprite>sprites\spr_level6</sprite>
+    <sprite>sprites\spr_level7</sprite>
+    <sprite>sprites\spr_level8</sprite>
+    <sprite>sprites\spr_level9</sprite>
+    <sprite>sprites\spr_level10</sprite>
+    <sprite>sprites\spr_back</sprite>
+    <sprite>sprites\spr_menu_button</sprite>
     <sprites name="spr_player">
       <sprite>sprites\spr_player_move_right</sprite>
+      <sprite>sprites\spr_player_move_right_gun</sprite>
+      <sprite>sprites\spr_player_static_gun</sprite>
+      <sprite>sprites\spr_player_move_left_gun</sprite>
+      <sprite>sprites\spr_player_move_back_gun</sprite>
+      <sprite>sprites\spr_player_static_back_gun</sprite>
+      <sprite>sprites\spr_player_move_down_gun</sprite>
       <sprite>sprites\spr_player_move_right_armor</sprite>
       <sprite>sprites\spr_player_move_left</sprite>
       <sprite>sprites\spr_player_move_left_armor</sprite>
@@ -43,21 +62,21 @@
     <sprite>sprites\spr_title</sprite>
     <sprite>sprites\spr_turkeyleg</sprite>
     <sprite>sprites\spri_GamOver</sprite>
-    <sprite>sprites\sprite18</sprite>
-    <sprite>sprites\sprite20</sprite>
-    <sprite>sprites\sprite27</sprite>
+    <sprite>sprites\spr_congratulations</sprite>
     <sprites name="ui">
       <sprite>sprites\spr_up</sprite>
       <sprite>sprites\spr_down</sprite>
       <sprite>sprites\spr_left</sprite>
       <sprite>sprites\spr_right</sprite>
       <sprite>sprites\spr_attack</sprite>
+      <sprite>sprites\spr_armor_ui</sprite>
     </sprites>
     <sprites name="spr_weapon">
       <sprite>sprites\spr_weapon_sword</sprite>
       <sprite>sprites\spr_weapon_armor</sprite>
+      <sprite>sprites\spr_weapon_gun</sprite>
     </sprites>
-    <sprite>sprites\sprite30</sprite>
+    <sprite>sprites\spr_bullet_player</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bk_tile</background>
@@ -72,6 +91,7 @@
     <script>scripts\scr_player_armor.gml</script>
     <script>scripts\scr_player_move.gml</script>
     <script>scripts\scr_weapon_armor_equip.gml</script>
+    <script>scripts\scr_weapon_armor_cd_release.gml</script>
     <scripts name="scr_player">
       <script>scripts\scr_player_stop.gml</script>
       <script>scripts\scr_player_stop_back.gml</script>
@@ -80,15 +100,15 @@
       <script>scripts\scr_player_move_spr_down.gml</script>
       <script>scripts\scr_player_move_spr_back.gml</script>
     </scripts>
+    <script>scripts\scr_player_shot.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_block</object>
     <object>objects\obj_exit</object>
     <object>objects\obj_control</object>
-    <object>objects\obj_play_button</object>
-    <object>objects\obj_restart_button</object>
     <object>objects\obj_GameOver</object>
+    <object>objects\obj_congratulations</object>
     <object>objects\obj_title</object>
     <objects name="ui">
       <object>objects\obj_up</object>
@@ -96,6 +116,7 @@
       <object>objects\obj_left</object>
       <object>objects\obj_right</object>
       <object>objects\obj_attackbutton</object>
+      <object>objects\obj_armor_ui</object>
     </objects>
     <object>objects\obj_bullet</object>
     <objects name="obj_exit">
@@ -107,6 +128,7 @@
       <object>objects\obj_exit_lv6</object>
       <object>objects\obj_exit_lv7</object>
       <object>objects\obj_exit_lv8</object>
+      <object>objects\obj_exit_lv9</object>
     </objects>
     <objects name="obj_enemy">
       <object>objects\obj_enemy_lv2_h</object>
@@ -115,17 +137,26 @@
       <object>objects\obj_enemy_lv1_v</object>
       <object>objects\obj_enemy_lv3</object>
       <object>objects\obj_enemy_lv4</object>
+      <object>objects\obj_enemy_boss</object>
     </objects>
     <objects name="obj_weapon">
       <object>objects\obj_weapon_sword</object>
       <object>objects\obj_weapon_armor</object>
+      <object>objects\obj_weapon_gun</object>
       <object>objects\obj_weapon_sword_item</object>
+      <object>objects\obj_bullet_player</object>
+    </objects>
+    <objects name="obj_button">
+      <object>objects\obj_play_button</object>
+      <object>objects\obj_menu</object>
+      <object>objects\obj_restart_button</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title</room>
     <room>rooms\rm_GameOver</room>
-    <room>rooms\rm_lv411</room>
+    <room>rooms\rm_win</room>
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_lv3</room>
     <room>rooms\rm_lv1</room>
     <room>rooms\rm_lv4</room>
@@ -134,6 +165,7 @@
     <room>rooms\rm_lv7</room>
     <room>rooms\rm_lv8</room>
     <room>rooms\rm_lv9</room>
+    <room>rooms\rm_lv10</room>
     <room>rooms\rm_lv2</room>
   </rooms>
   <help>

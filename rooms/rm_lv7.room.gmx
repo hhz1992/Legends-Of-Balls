@@ -159,6 +159,7 @@
     <instance objName="obj_enemy_lv2_h" x="784" y="80" name="inst_C7685B6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_weapon_armor" x="400" y="384" name="inst_EB09E0A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_exit_lv7" x="1072" y="32" name="inst_1D9AED62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_armor_ui" x="1040" y="560" name="inst_B3A0752C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="96" y="368" w="16" h="16" xo="0" yo="0" id="10000118" name="inst_D7DBC0F2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

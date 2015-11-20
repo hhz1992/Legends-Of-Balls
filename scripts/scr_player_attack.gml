@@ -7,6 +7,17 @@ if(global.sword==1){
         }
     }
 }
+if(global.gun==1){
+
+    if(global.guncooldown == 0){
+        bullet_id = instance_create(x, y, obj_bullet_player);
+        bullet_id.direction = obj_player.direction;
+        bullet_id.image_angle = obj_player.direction
+        bullet_id.speed = 10;
+        global.guncooldown = 1;
+        alarm[2]=20;
+    }
+}
 
 
 

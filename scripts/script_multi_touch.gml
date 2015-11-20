@@ -35,6 +35,10 @@
             if(place_meeting(mx, my, obj_attackbutton)){
                 scr_player_attack();
             }
+             if(place_meeting(mx, my, obj_armor_ui)){
+                scr_player_armor();
+            }
+            
         }
         
           if (device_mouse_check_button_released(device, mb_left)) {
