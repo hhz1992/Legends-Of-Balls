@@ -15,6 +15,7 @@
     <sprite>sprites\spr_bullet</sprite>
     <sprites name="spr_enemy">
       <sprite>sprites\spr_enemy_lv1</sprite>
+      <sprite>sprites\spr_enemy_lv4</sprite>
       <sprite>sprites\spr_enemy_lv2</sprite>
     </sprites>
     <sprite>sprites\spr_enemy_lv1_1</sprite>
@@ -105,6 +106,7 @@
       <object>objects\obj_exit_lv5</object>
       <object>objects\obj_exit_lv6</object>
       <object>objects\obj_exit_lv7</object>
+      <object>objects\obj_exit_lv8</object>
     </objects>
     <objects name="obj_enemy">
       <object>objects\obj_enemy_lv2_h</object>
@@ -112,6 +114,7 @@
       <object>objects\obj_enemy_lv2_v</object>
       <object>objects\obj_enemy_lv1_v</object>
       <object>objects\obj_enemy_lv3</object>
+      <object>objects\obj_enemy_lv4</object>
     </objects>
     <objects name="obj_weapon">
       <object>objects\obj_weapon_sword</object>
@@ -130,6 +133,7 @@
     <room>rooms\rm_lv6</room>
     <room>rooms\rm_lv7</room>
     <room>rooms\rm_lv8</room>
+    <room>rooms\rm_lv9</room>
     <room>rooms\rm_lv2</room>
   </rooms>
   <help>
