@@ -11,19 +11,34 @@
     <sound>sound\sou_ghostdie</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_player_armor</sprite>
-    <sprite>sprites\spr_turkeyleg</sprite>
-    <sprite>sprites\spr_ghost_test</sprite>
     <sprite>sprites\spr_block</sprite>
+    <sprite>sprites\spr_bullet</sprite>
+    <sprites name="spr_enemy">
+      <sprite>sprites\spr_enemy_lv1</sprite>
+      <sprite>sprites\spr_enemy_lv2</sprite>
+    </sprites>
+    <sprite>sprites\spr_enemy_lv1_1</sprite>
     <sprite>sprites\spr_exit</sprite>
+    <sprite>sprites\spr_ghost</sprite>
+    <sprite>sprites\spr_ghost_test</sprite>
     <sprite>sprites\spr_play_button</sprite>
+    <sprites name="spr_player">
+      <sprite>sprites\spr_player_move_right</sprite>
+      <sprite>sprites\spr_player_move_left</sprite>
+      <sprite>sprites\spr_player_move_down</sprite>
+      <sprite>sprites\spr_player_static</sprite>
+      <sprite>sprites\spr_player_move_back</sprite>
+      <sprite>sprites\spr_player_static_back</sprite>
+    </sprites>
+    <sprite>sprites\spr_player_armor</sprite>
     <sprite>sprites\spr_restart_button</sprite>
     <sprite>sprites\spr_title</sprite>
-    <sprite>sprites\spri_GamOver</sprite>
-    <sprite>sprites\spr_enemy_lv1</sprite>
-    <sprite>sprites\spr_ghost</sprite>
+    <sprite>sprites\spr_turkeyleg</sprite>
     <sprite>sprites\spr_weapon_armor</sprite>
+    <sprite>sprites\spri_GamOver</sprite>
+    <sprite>sprites\sprite18</sprite>
+    <sprite>sprites\sprite20</sprite>
+    <sprite>sprites\sprite27</sprite>
     <sprites name="ui">
       <sprite>sprites\spr_up</sprite>
       <sprite>sprites\spr_down</sprite>
@@ -31,8 +46,10 @@
       <sprite>sprites\spr_right</sprite>
       <sprite>sprites\spr_attack</sprite>
     </sprites>
-    <sprite>sprites\spr_bullet</sprite>
-    <sprite>sprites\sprite18</sprite>
+    <sprites name="spr_weapon">
+      <sprite>sprites\spr_weapon_sword</sprite>
+    </sprites>
+    <sprite>sprites\sprite30</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bk_tile</background>
@@ -46,13 +63,17 @@
     <script>scripts\scr_player_attack.gml</script>
     <script>scripts\scr_player_move.gml</script>
     <script>scripts\scr_weapon_armor_equip.gml</script>
+    <scripts name="scr_player">
+      <script>scripts\scr_player_stop.gml</script>
+      <script>scripts\scr_player_stop_back.gml</script>
+      <script>scripts\scr_player_move_spr_left.gml</script>
+      <script>scripts\scr_player_move_spr_right.gml</script>
+      <script>scripts\scr_player_move_spr_down.gml</script>
+      <script>scripts\scr_player_move_spr_back.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
-    <object>objects\obj_enemy_lv1_v</object>
-    <object>objects\obj_enemy_lv1_h</object>
-    <object>objects\obj_turkeyleg</object>
-    <object>objects\obj_ghost</object>
     <object>objects\obj_block</object>
     <object>objects\obj_exit</object>
     <object>objects\obj_control</object>
@@ -69,13 +90,37 @@
       <object>objects\obj_attackbutton</object>
     </objects>
     <object>objects\obj_bullet</object>
+    <objects name="obj_exit">
+      <object>objects\obj_exit_lv1</object>
+      <object>objects\obj_exit_lv2</object>
+      <object>objects\obj_exit_lv3</object>
+      <object>objects\obj_exit_lv4</object>
+      <object>objects\obj_exit_lv5</object>
+      <object>objects\obj_exit_lv6</object>
+    </objects>
+    <objects name="obj_enemy">
+      <object>objects\obj_enemy_lv2_h</object>
+      <object>objects\obj_enemy_lv1_h</object>
+      <object>objects\obj_enemy_lv2_v</object>
+      <object>objects\obj_enemy_lv1_v</object>
+      <object>objects\obj_enemy_lv3</object>
+    </objects>
+    <objects name="obj_weapon">
+      <object>objects\obj_weapon_sword</object>
+      <object>objects\obj_weapon_sword_item</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title</room>
     <room>rooms\rm_GameOver</room>
-    <room>rooms\rm_lv2</room>
+    <room>rooms\rm_lv411</room>
+    <room>rooms\rm_lv3</room>
     <room>rooms\rm_lv1</room>
-    <room>rooms\rm_lvl3</room>
+    <room>rooms\rm_lv4</room>
+    <room>rooms\rm_lv5</room>
+    <room>rooms\rm_lv6</room>
+    <room>rooms\rm_lv7</room>
+    <room>rooms\rm_lv2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

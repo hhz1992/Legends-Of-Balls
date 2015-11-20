@@ -7,18 +7,18 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>10</bbox_left>
-  <bbox_right>37</bbox_right>
-  <bbox_top>2</bbox_top>
-  <bbox_bottom>44</bbox_bottom>
+  <bbox_left>4</bbox_left>
+  <bbox_right>59</bbox_right>
+  <bbox_top>4</bbox_top>
+  <bbox_bottom>57</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>48</width>
-  <height>48</height>
+  <width>64</width>
+  <height>64</height>
   <frames>
     <frame index="0">images\spr_enemy_lv1_0.png</frame>
     <frame index="1">images\spr_enemy_lv1_1.png</frame>
@@ -28,5 +28,7 @@
     <frame index="5">images\spr_enemy_lv1_5.png</frame>
     <frame index="6">images\spr_enemy_lv1_6.png</frame>
     <frame index="7">images\spr_enemy_lv1_7.png</frame>
+    <frame index="8">images\spr_enemy_lv1_8.png</frame>
+    <frame index="9">images\spr_enemy_lv1_9.png</frame>
   </frames>
 </sprite>

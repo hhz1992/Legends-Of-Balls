@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -28,9 +28,14 @@
             <string>lives  = 3;
 globalvar weapon_armor_flag;
 globalvar weapon_armor_equip;
+globalvar sword;
+globalvar weapon;
 
-weapon_armor_flag = 1;
-weapon_armor_equip = 0;
+global.weapon_armor_flag = 1;
+global.weapon_armor_equip = 0;
+global.sword=0;
+global.weapon=0;
+
 </string>
           </argument>
         </arguments>
@@ -56,7 +61,7 @@ weapon_armor_equip = 0;
             <string>var ww = display_get_gui_width();
 var hh = display_get_gui_height();
 for (var n = 0; n &lt; lives; n++){
-    draw_sprite_ext(spr_player, 0, view_xview[0]+12+(n*40), view_yview[0]+12, 0.4, 0.4, 0, -1, 1);
+    draw_sprite_ext(spr_player_static, 0, view_xview[0]+12+(n*40), view_yview[0]+12, 0.4, 0.4, 0, -1, 1);
 }
 </string>
           </argument>
