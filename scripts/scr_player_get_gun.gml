@@ -1,0 +1,1 @@
+global.gun = 1;

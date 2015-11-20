@@ -101,6 +101,9 @@
       <script>scripts\scr_player_move_spr_back.gml</script>
     </scripts>
     <script>scripts\scr_player_shot.gml</script>
+    <script>scripts\scr_player_get_sword.gml</script>
+    <script>scripts\scr_player_get_armor.gml</script>
+    <script>scripts\scr_player_get_gun.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -148,6 +151,17 @@
     </objects>
     <objects name="obj_button">
       <object>objects\obj_play_button</object>
+      <object>objects\obj_level9_button</object>
+      <object>objects\obj_level10_button</object>
+      <object>objects\obj_level8_button</object>
+      <object>objects\obj_level7_button</object>
+      <object>objects\obj_level6_button</object>
+      <object>objects\obj_level5_button</object>
+      <object>objects\obj_level4_button</object>
+      <object>objects\obj_level3_button</object>
+      <object>objects\obj_level1_button</object>
+      <object>objects\obj_back_button</object>
+      <object>objects\obj_level2_button</object>
       <object>objects\obj_menu</object>
       <object>objects\obj_restart_button</object>
     </objects>

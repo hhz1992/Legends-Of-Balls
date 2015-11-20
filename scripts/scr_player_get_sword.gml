@@ -1,0 +1,1 @@
+global.sword = 1;

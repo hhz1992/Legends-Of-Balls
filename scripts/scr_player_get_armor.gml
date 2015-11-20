@@ -1,0 +1,1 @@
+global.armor = 1;
